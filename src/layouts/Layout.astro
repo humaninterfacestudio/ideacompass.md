@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" href="/favicon.ico" />
+		<title>IDEA Compass</title>
+	</head>
+	<body>
+		<slot />
+	</body>
+</html>
+
+<style>
+	* {
+		box-sizing: border-box;
+	}
+	html,
+	body {
+		margin: 0;
+		padding: 0.5lh;
+		width: 100%;
+		height: 100%;
+		font-family: sans-serif;
+		background-color: oklch(5% 0 0);
+		color: oklch(90% 0 0);
+	}
+</style>
