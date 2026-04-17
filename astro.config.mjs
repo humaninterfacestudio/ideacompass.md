@@ -7,6 +7,7 @@ export default defineConfig({
 		enabled: false,
 	},
 	site: "https://ideacompass.md",
+	trailingSlash: "always",
 	fonts: [
 		{
 			provider: fontProviders.local(),
