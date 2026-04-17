@@ -1,10 +1,10 @@
 /* Styles for Home component — imported in Home.astro frontmatter */
 .home {
-  padding: var(--space-md);
+	padding: var(--space-md);
 }
 
 .home h1 {
-  font-size: var(--text-lg);
-  margin-block-start: 0;
-  margin-block-end: 1lh;
+	font-size: var(--text-lg);
+	margin-block-start: 0;
+	margin-block-end: 1lh;
 }

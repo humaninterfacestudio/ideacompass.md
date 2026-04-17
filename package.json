@@ -1,25 +1,25 @@
 {
-  "name": "ideacompass.md",
-  "version": "0.0.0",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro build && wrangler dev",
-    "astro": "astro",
-    "deploy": "astro build && wrangler deploy"
-  },
-  "dependencies": {
-    "astro": "^6.1.7"
-  },
-  "devDependencies": {
-    "prettier": "3.8.3",
-    "prettier-plugin-astro": "0.14.1",
-    "wrangler": "^4.83.0"
-  },
-  "engines": {
-    "node": ">=22.12.0"
-  },
-  "packageManager": "pnpm@10.33.0"
+	"name": "ideacompass.md",
+	"version": "0.0.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "astro dev",
+		"build": "astro build",
+		"preview": "astro build && wrangler dev",
+		"astro": "astro",
+		"deploy": "astro build && wrangler deploy"
+	},
+	"dependencies": {
+		"astro": "^6.1.7"
+	},
+	"devDependencies": {
+		"prettier": "3.8.3",
+		"prettier-plugin-astro": "0.14.1",
+		"wrangler": "^4.83.0"
+	},
+	"engines": {
+		"node": ">=22.12.0"
+	},
+	"packageManager": "pnpm@10.33.0"
 }
