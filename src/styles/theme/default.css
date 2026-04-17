@@ -1,0 +1,44 @@
+[data-scheme="light"] {
+  color-scheme: light;
+}
+[data-scheme="dark"] {
+  color-scheme: dark;
+}
+
+/* Colors */
+[data-theme="default"] {
+  color-scheme: light dark;
+
+  --t-color-brand-primary: light-dark(
+    oklch(0.68 0.2 40),
+    oklch(0.9442 0.161 124.53)
+  );
+
+  --t-color-scheme-direction: light-dark(1, -1);
+
+  --t-color-foreground-base: light-dark(
+    oklch(0.25 0.01 50),
+    oklch(0.95 0.01 125)
+  );
+  --t-color-foreground-weak: oklch(
+    from var(--t-color-foreground-base)
+      calc(l + 0.2 * var(--t-color-scheme-direction)) c h
+  );
+  --t-color-foreground-strong: oklch(
+    from var(--t-color-foreground-base)
+      calc(l - 0.1 * var(--t-color-scheme-direction)) c h
+  );
+
+  --t-color-selection-background: ;
+  --t-color-selection-foreground: ;
+}
+
+[data-theme="default"] {
+  --t-color-background-root: light-dark(
+    oklch(0.9277 0.0092 76.6),
+    oklch(0.3151 0.0087 159.59)
+  );
+  --t-color-foreground-root: var(--t-color-foreground-base);
+
+  --t-color-background-page: ;
+}
