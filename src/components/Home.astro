@@ -1,10 +1,27 @@
 ---
-/* External CSS — imported in frontmatter, becomes scoped to this component */
-import "./Home.css";
+
 ---
 
 <div class="home">
 	<main>
-		<h1>IDEA Compass</h1>
+		<h1 class="brand"><span class="visually-hidden">IDEA Compass</span></h1>
 	</main>
 </div>
+
+<style>
+	.home {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 100vh;
+	}
+
+	.brand {
+		aspect-ratio: 2.5 / 1;
+		height: 72px;
+		background-image: var(--t-brand-logo);
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center;
+	}
+</style>
