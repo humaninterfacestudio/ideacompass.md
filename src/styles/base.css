@@ -1,3 +1,4 @@
+/* stylelint-disable declaration-empty-line-before */
 *,
 *::before,
 *::after {
@@ -70,6 +71,7 @@ body {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
 :where(input, button, textarea, select) {
 	font: inherit;
 }
@@ -93,9 +95,11 @@ body {
 	position: relative;
 	vertical-align: baseline;
 }
+
 :where(sub) {
 	bottom: -0.25em;
 }
+
 :where(sup) {
 	top: -0.5em;
 }
