@@ -6,7 +6,7 @@
 }
 
 html {
-  font-family: var(--font-switzer, ui-sans-serif, system-ui, sans-serif);
+  font-family: var(--t-font-family, ui-sans-serif, system-ui, sans-serif);
   font-size: var(--t-font-size, 1rem);
   line-height: var(--t-line-height, 1.5);
 
